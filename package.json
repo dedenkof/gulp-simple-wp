@@ -2,9 +2,20 @@
   "name": "gulp-simple-wp",
   "version": "1.0.0",
   "description": "simple pack gulp for wp",
-  "main": "index.js",
-  "repository": "git@github.com:dedenkof/gulp-simple-wp.git",
+  "main": "index.php",
   "author": "Volodymyr Dedenko <dedenkof@ukr.net>",
   "license": "MIT",
-  "private": true
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.11.0-rc1"
+  }
 }
